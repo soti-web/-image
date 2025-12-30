@@ -451,17 +451,17 @@ http://www.tooplate.com/view/2098-health
     height: 650px;
   }
 
-  .slider .item-first {
-    background-image: url(../https://cdn.discordapp.com/attachments/877239607362719744/1455539852773691392/IMG_8763.jpg?ex=6955189f&is=6953c71f&hm=51eb9395b3602dc0046b037921f0a706feb55b253d376e670f4f0d776ac5bad9&);
-  }
+.slider .item-first {
+  background-image: url("https://cdn.discordapp.com/attachments/877239607362719744/1455539852773691392/IMG_8763.jpg");
+}
 
-  .slider .item-second {
-    background-image: url(../https://cdn.discordapp.com/attachments/877239607362719744/1455540273995190425/IMG_8764.jpg?ex=69551903&is=6953c783&hm=4c11e21a50b263d24d9d20764c90ed726c399fc5cc90d4f22280dbfa427c708e&);
-  }
+.slider .item-second {
+  background-image: url("https://cdn.discordapp.com/attachments/877239607362719744/1455540273995190425/IMG_8764.jpg");
+}
 
-  .slider .item-third {
-    background-image: url(../https://cdn.discordapp.com/attachments/877239607362719744/1455540274502566055/IMG_8765.jpg?ex=69551904&is=6953c784&hm=c96648f4b9b8d3cf5252468bfdfadcdd5d7a69da756f16886306744cb7b94258&);
-  }
+.slider .item-third {
+  background-image: url("https://cdn.discordapp.com/attachments/877239607362719744/1455540274502566055/IMG_8765.jpg");
+}
 
 
   /*---------------------------------------

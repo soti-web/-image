@@ -22,6 +22,18 @@ http://www.tooplate.com/view/2098-health
   border-radius: 8px; /* دەتوانیت بسڕیتەوە */
 }
 
+@font-face {
+  font-family: 'Rudaw';
+  src: url('fonts/Rudaw.ttf') format('truetype');
+  font-weight: normal;
+  font-style: normal;
+}
+
+.kurdi-font {
+  font-family: 'Rudaw', 'Noto Naskh Arabic', sans-serif;
+  direction: rtl;
+}
+
   /*---------------------------------------
      TYPOGRAPHY     s         
   -----------------------------------------*/

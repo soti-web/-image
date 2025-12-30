@@ -30,6 +30,17 @@ http://www.tooplate.com/view/2098-health
 }
 
 
+* {
+  font-family: 'Rudaw', sans-serif !important;
+}
+
+/* بۆ ئایکۆنەکان */
+.fa,
+.fa::before {
+  font-family: 'FontAwesome' !important;
+}
+
+
   /*---------------------------------------
      TYPOGRAPHY     s         
   -----------------------------------------*/

@@ -19,9 +19,7 @@ http://www.tooplate.com/view/2098-health
 
 @font-face {
   font-family: 'Rudaw';
-  src: url('font/Rudaw.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+  src: url('../font/Rudaw.ttf') format('truetype');
 }
 
 .kurdi-font {

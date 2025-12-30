@@ -16,7 +16,7 @@ http://www.tooplate.com/view/2098-health
 
 
   /*---------------------------------------
-     TYPOGRAPHY              
+     TYPOGRAPHY     s         
   -----------------------------------------*/
 
   h1,h2,h3,h4,h5,h6 {
@@ -452,16 +452,17 @@ http://www.tooplate.com/view/2098-health
   }
 
 .slider .item-first {
-  background-image: url("https://cdn.discordapp.com/attachments/877239607362719744/1455539852773691392/IMG_8763.jpg");
+  background-image: url("../images/slide1.jpg");
 }
 
 .slider .item-second {
-  background-image: url("https://cdn.discordapp.com/attachments/877239607362719744/1455540273995190425/IMG_8764.jpg");
+  background-image: url("../images/slide2.jpg");
 }
 
 .slider .item-third {
-  background-image: url("https://cdn.discordapp.com/attachments/877239607362719744/1455540274502566055/IMG_8765.jpg");
+  background-image: url("../images/slide3.jpg");
 }
+
 
 
   /*---------------------------------------

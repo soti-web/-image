@@ -15,12 +15,7 @@ http://www.tooplate.com/view/2098-health
   }
 
 
-.team-img {
-  width: 100%;
-  aspect-ratio: 1 / 1; /* square */
-  object-fit: cover;
-  border-radius: 8px; /* دەتوانیت بسڕیتەوە */
-}
+
 
 @font-face {
   font-family: 'Rudaw';
@@ -30,7 +25,7 @@ http://www.tooplate.com/view/2098-health
 }
 
 .kurdi-font {
-  font-family: 'Rudaw', 'Noto Naskh Arabic', sans-serif;
+  font-family: 'Rudaw' !important;
   direction: rtl;
 }
 

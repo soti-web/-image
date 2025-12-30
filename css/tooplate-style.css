@@ -1083,4 +1083,15 @@ http://www.tooplate.com/view/2098-health
     }
 
   }
+  
+  #home,
+#home .item {
+  height: 100vh;
+  min-height: 500px;
+}
+
+#home .caption {
+  opacity: 1;
+  visibility: visible;
+}
 

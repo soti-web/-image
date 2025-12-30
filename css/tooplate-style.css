@@ -28,6 +28,10 @@ http://www.tooplate.com/view/2098-health
   font-family: 'Rudaw' !important;
   direction: rtl;
 }
+/*hamuy bbta rudaw*/
+* {
+  font-family: 'Rudaw', sans-serif !important;
+}
 
   /*---------------------------------------
      TYPOGRAPHY     s         

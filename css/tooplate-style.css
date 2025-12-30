@@ -1095,3 +1095,9 @@ http://www.tooplate.com/view/2098-health
   visibility: visible;
 }
 
+#home .item {
+  height: 100vh;
+  min-height: 500px;
+  background-size: cover;
+  background-position: center center;
+}

@@ -20,25 +20,22 @@ body {
 @font-face {
   font-family: 'Rudaw';
   src: url('../fonts/Rudaw.ttf') format('truetype');
-  font-weight: normal;
-  font-style: normal;
+}
+
+body {
+  font-family: 'Rudaw', sans-serif;
+  text-align: right;
 }
 
 .kurdi-font {
-  font-family: 'Rudaw' !important;
   direction: rtl;
+  text-align: right;
 }
 
-
-* {
-  font-family: 'Rudaw', sans-serif !important;
+.owl-carousel {
+  direction: ltr;
 }
 
-/* بۆ ئایکۆنەکان */
-.fa,
-.fa::before {
-  font-family: 'FontAwesome' !important;
-}
 
   /*---------------------------------------
      TYPOGRAPHY              

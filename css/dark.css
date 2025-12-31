@@ -103,3 +103,38 @@ footer {
   color: #000000 !important;
   box-shadow: 0 8px 25px rgba(255, 218, 106, 0.6);
 }
+
+/* ===== FIX FADED SECTION TITLES ===== */
+
+/* Section titles */
+.section-title h2,
+.section-title h3,
+.section-title span {
+  color: #d4af37 !important; /* Gold */
+  opacity: 1 !important;
+  font-weight: 800;
+}
+
+/* General headings */
+h1, h2, h3, h4 {
+  opacity: 1 !important;
+}
+
+/* Footer & info titles */
+footer h4,
+.news-info h3,
+.team-info h3,
+.contact-info h3 {
+  color: #d4af37 !important;
+  opacity: 1 !important;
+  font-weight: 700;
+}
+
+/* Small faded text fix */
+.small-text,
+.meta,
+.subtitle {
+  color: #e6e6e6 !important;
+  opacity: 1 !important;
+}
+

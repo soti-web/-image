@@ -138,3 +138,32 @@ footer h4,
   opacity: 1 !important;
 }
 
+/* ===== FORM TEXT VISIBILITY FIX ===== */
+/* (ئەم کۆدەی نووسینی ناو/ئیمێلە) */
+
+label {
+  color: #d4af37 !important;
+  font-weight: 700;
+}
+
+input,
+textarea,
+select {
+  background-color: #1c1c1c !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(212, 175, 55, 0.6) !important;
+}
+
+input::placeholder,
+textarea::placeholder {
+  color: #bfa233 !important;
+  opacity: 1;
+}
+
+input:focus,
+textarea:focus,
+select:focus {
+  outline: none;
+  border-color: #ffda6a !important;
+  box-shadow: 0 0 8px rgba(212, 175, 55, 0.6);
+}

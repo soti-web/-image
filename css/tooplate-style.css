@@ -1060,35 +1060,6 @@ body {
     }
   }
 
-/* ===== FORCE FORM COLORS (BOOTSTRAP OVERRIDE) ===== */
-
-#appointment label {
-  color: #d4af37 !important;
-  font-weight: 700;
-}
-
-#appointment input.form-control,
-#appointment textarea.form-control,
-#appointment select.form-control {
-  background-color: #111 !important;
-  color: #ffffff !important;
-  border: 2px solid #d4af37 !important;
-}
-
-#appointment input.form-control::placeholder,
-#appointment textarea.form-control::placeholder {
-  color: #bfa233 !important;
-  opacity: 1 !important;
-}
-
-#appointment input.form-control:focus,
-#appointment textarea.form-control:focus,
-#appointment select.form-control:focus {
-  background-color: #000 !important;
-  color: #fff !important;
-  border-color: #ffda6a !important;
-  box-shadow: 0 0 8px rgba(212,175,55,0.6) !important;
-}
 
   @media only screen and (max-width: 639px) {
     h1 {

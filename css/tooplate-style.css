@@ -1068,10 +1068,7 @@ body {
     }
   }
 
-body {
-  background-color: #1f1f1f; /* ڕەساسی */
-  color: #e0e0e0;           /* نووسین سپی نرمو */
-}
+
 
   @media only screen and (max-width: 639px) {
     h1 {

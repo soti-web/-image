@@ -85,3 +85,21 @@ footer {
   background-color: #0f0f0f !important;
   border-top: 1px solid var(--gold-dark);
 }
+
+/* GOLD APPOINTMENT BUTTON */
+.appointment-btn a {
+  background: linear-gradient(135deg, #d4af37, #b89b2e) !important;
+  color: #111111 !important;
+  padding: 12px 26px;
+  border-radius: 30px;
+  font-weight: 800;
+  border: none !important;
+  box-shadow: 0 6px 20px rgba(212, 175, 55, 0.45);
+}
+
+/* HOVER EFFECT */
+.appointment-btn a:hover {
+  background: linear-gradient(135deg, #ffda6a, #d4af37) !important;
+  color: #000000 !important;
+  box-shadow: 0 8px 25px rgba(255, 218, 106, 0.6);
+}

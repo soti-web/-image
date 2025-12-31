@@ -173,3 +173,19 @@ footer h4,
   font-weight: bold;
   border: none;
 }
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 26px;
+    line-height: 1.4;
+  }
+
+  h3 {
+    font-size: 18px;
+  }
+
+  .btn {
+    padding: 12px 22px;
+    font-size: 16px;
+  }
+}

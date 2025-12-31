@@ -212,3 +212,23 @@ footer h4,
     font-size: 16px;
   }
 }
+
+/* ===== dugma maws icon ANIMATIONS ===== */
+
+.btn,
+.team-thumb,
+.social-icon li a {
+  transition: transform 0.3s ease;
+}
+
+.btn:hover {
+  transform: translateY(-3px);
+}
+
+.team-thumb:hover {
+  transform: translateY(-6px);
+}
+
+.social-icon li a:hover {
+  transform: scale(1.15);
+}

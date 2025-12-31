@@ -138,21 +138,3 @@ footer h4,
   opacity: 1 !important;
 }
 
-/* ===== FORCE FORM LABEL VISIBILITY ===== */
-
-/* Template-specific labels */
-.form-group label,
-.form-control + label,
-label.control-label {
-  color: #d4af37 !important;   /* Gold */
-  opacity: 1 !important;
-  font-weight: 700;
-}
-
-/* When input is focused */
-.form-group input:focus + label,
-.form-group textarea:focus + label,
-.form-group select:focus + label {
-  color: #ffda6a !important;
-  opacity: 1 !important;
-}

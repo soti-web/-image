@@ -138,3 +138,38 @@ footer h4,
   opacity: 1 !important;
 }
 
+/* ===== APPOINTMENT FORM FIX (FINAL) ===== */
+
+#appointment-form label {
+  color: #d4af37 !important;   /* gold */
+  font-weight: 700;
+  display: block;
+  margin-bottom: 6px;
+}
+
+#appointment-form .form-control {
+  background-color: #1c1c1c !important;
+  color: #ffffff !important;
+  border: 1px solid rgba(212, 175, 55, 0.6) !important;
+}
+
+/* placeholder (نووسینی ناو فیلدەکان) */
+#appointment-form .form-control::placeholder {
+  color: #bfa233 !important;
+  opacity: 1;
+}
+
+/* focus effect */
+#appointment-form .form-control:focus {
+  border-color: #ffda6a !important;
+  box-shadow: 0 0 8px rgba(212, 175, 55, 0.6);
+  background-color: #1c1c1c !important;
+}
+
+/* submit button */
+#cf-submit {
+  background: linear-gradient(135deg, #d4af37, #b8962e) !important;
+  color: #111 !important;
+  font-weight: bold;
+  border: none;
+}

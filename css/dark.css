@@ -249,3 +249,20 @@ footer h4,
     }
   }
 }
+/* ===== card mob ONLY ANIMATION ===== */
+@media (max-width: 768px) {
+  .team-thumb {
+    animation: cardUp 0.7s ease forwards;
+  }
+
+  @keyframes cardUp {
+    from {
+      opacity: 0;
+      transform: translateY(15px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+}

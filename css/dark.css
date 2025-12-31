@@ -213,7 +213,7 @@ footer h4,
   }
 }
 
-/* ===== dugma maws icon ANIMATIONS ===== */
+/* ===== pc dugma maws icon ANIMATIONS ===== */
 
 .btn,
 .team-thumb,
@@ -231,4 +231,21 @@ footer h4,
 
 .social-icon li a:hover {
   transform: scale(1.15);
+}
+
+/* ===== MOBILE ONLY ANIMATION ===== */
+
+@media (max-width: 768px) {
+  .mobile-fade {
+    opacity: 0;
+    transform: translateY(20px);
+    animation: mobileFade 0.8s ease forwards;
+  }
+
+  @keyframes mobileFade {
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
 }

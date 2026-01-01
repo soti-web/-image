@@ -308,3 +308,25 @@ footer h4,
     padding: 22px;
   }
 }
+
+@keyframes goldShimmer {
+  0% {
+    background-position: -200% center;
+  }
+  100% {
+    background-position: 200% center;
+  }
+}
+
+.gold-animate {
+  background: linear-gradient(
+    120deg,
+    #8a6c1f,
+    #d4af37,
+    #ffeb99,
+    #d4af37,
+    #8a6c1f
+  );
+  background-size: 300% 100%;
+  animation: goldShimmer 4s linear infinite;
+}

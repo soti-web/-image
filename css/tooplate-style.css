@@ -226,38 +226,57 @@ body {
     padding: 0;
   }
 
-/* ===== CROWN PRELOADER ===== */
-
-.preloader {
+/* ==== GOLD PRELOADER ==== */
+.gold-preloader {
   position: fixed;
   inset: 0;
-  background: #0f0f0f;
-  z-index: 99999;
-
+  background: #000;
   display: flex;
   align-items: center;
   justify-content: center;
+  z-index: 9999;
 }
 
-.crown-loader {
-  font-size: 64px;
-  color: #d4af37;
-  animation: crownPulse 1.8s ease-in-out infinite;
-  filter: drop-shadow(0 0 18px rgba(212,175,55,0.6));
+.loader-content {
+  text-align: center;
 }
 
-@keyframes crownPulse {
+/* LOGO */
+.loader-logo {
+  width: 80px;
+  margin-bottom: 25px;
+  filter: drop-shadow(0 0 12px #d4af37);
+}
+
+/* BAR */
+.loader-bar {
+  width: 220px;
+  height: 4px;
+  background: rgba(212, 175, 55, 0.2);
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.loader-bar span {
+  display: block;
+  height: 100%;
+  width: 40%;
+  background: linear-gradient(
+    90deg,
+    transparent,
+    #d4af37,
+    #ffd700
+  );
+  animation: goldLoad 1.5s infinite ease-in-out;
+}
+
+/* ANIMATION */
+@keyframes goldLoad {
   0% {
-    transform: scale(0.9) rotate(0deg);
-    opacity: 0.6;
-  }
-  50% {
-    transform: scale(1.1) rotate(6deg);
-    opacity: 1;
+    transform: translateX(-100%);
   }
   100% {
-    transform: scale(0.9) rotate(0deg);
-    opacity: 0.6;
+    transform: translateX(250%);
   }
 }
 

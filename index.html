@@ -61,29 +61,36 @@ http://www.tooplate.com/view/2098-health
      </header>
 
 
+
+
+
      <!-- MENU -->
      <section class="navbar navbar-default navbar-static-top" role="navigation">
           <div class="container">
-
+<!--
                <div class="navbar-header">
                     <button class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
                          <span class="icon icon-bar"></span>
                          <span class="icon icon-bar"></span>
                          <span class="icon icon-bar"></span>
                     </button>
+-->
+<!-- MENU BUTTON 
+<div class="menu-btn" onclick="openMenu()">☰</div>
+
+<!-- OVERLAY 
+<div id="overlay" onclick="closeMenu()"></div>
+-->
+
 
 <!-- MENU BUTTON -->
 <div class="menu-btn" onclick="openMenu()">☰</div>
 
-<!-- OVERLAY -->
-<div id="overlay" onclick="closeMenu()"></div>
+<!-- SLIDE MENU -->
+<div id="sideMenu" class="side-menu">
+  <span class="close-btn" onclick="closeMenu()">✕</span>
 
-<!-- SIDE MENU -->
-<div id="side-menu">
-  <div class="menu-header">
-    <span>Menu</span>
-    <button onclick="closeMenu()">✕</button>
-  </div>
+  <ul>
 
   <ul class="menu-list kurdi-font">
      <li><a href="#top" class="smoothScroll">سەرەکی</a></li>

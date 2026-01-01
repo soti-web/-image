@@ -375,6 +375,25 @@ footer h4,
   overflow: hidden; /* ئەمە گرنگترین شتە */
 }
 
+/* ===== UNIFIED LUXURY CARD FIX ===== */
+
+/* هەموو جۆرە کارتەکان */
+.team-thumb,
+.news-thumb,
+.luxury-card {
+  border-radius: 22px;
+  overflow: hidden;        /* ئەمە زۆر گرنگە */
+  position: relative;
+}
+
+/* وێنەی ناو کارت */
+.team-thumb img,
+.news-thumb img,
+.luxury-card img {
+  width: 100%;
+  display: block;
+  border-radius: 0;        /* چونکە overflow hidden کارەکە دەکات */
+}
 
 
 @media (max-width: 768px) {

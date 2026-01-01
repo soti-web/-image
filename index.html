@@ -465,9 +465,11 @@ http://www.tooplate.com/view/2098-health
      <script src="js/owl.carousel.min.js"></script>
      <script src="js/custom.js"></script>
      
- <script>
+<script>
 window.addEventListener("load", function () {
-  document.querySelector(".preloader").style.display = "none";
+  setTimeout(function () {
+    document.querySelector(".preloader").classList.add("hide");
+  }, 2000); // 2000ms = 2 چرکە
 });
 </script>
 

@@ -439,17 +439,6 @@ footer h4,
   overflow: hidden !important;
 }
 
-/* وێنەکە قەوسی سەرەوەی راست و چەپ */
-.team-thumb.luxury-card > img {
-  width: 100%;
-  display: block;
-
-  border-top-left-radius: 22px;
-  border-top-right-radius: 22px;
-
-  border-bottom-left-radius: 0;
-  border-bottom-right-radius: 0;
-}
 
 
 @media (max-width: 768px) {

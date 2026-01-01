@@ -309,24 +309,32 @@ footer h4,
   }
 }
 
-@keyframes goldShimmer {
-  0% {
-    background-position: -200% center;
-  }
-  100% {
-    background-position: 200% center;
-  }
+
+ .tag-modern {
+  display: inline-block;
+  padding: 6px 14px;
+  margin-bottom: 12px;
+
+  font-size: 13px;
+  font-weight: 600;
+  letter-spacing: 0.5px;
+
+  color: #f5e6b8; /* گۆڵدی مات */
+  background: linear-gradient(
+    135deg,
+    rgba(212,175,55,0.18),
+    rgba(212,175,55,0.05)
+  );
+
+  border: 1px solid rgba(212,175,55,0.35);
+  border-radius: 999px; /* مۆدێرن / نەرم */
+
+  backdrop-filter: blur(6px);
+  -webkit-backdrop-filter: blur(6px);
 }
 
-.gold-animate {
-  background: linear-gradient(
-    120deg,
-    #8a6c1f,
-    #d4af37,
-    #ffeb99,
-    #d4af37,
-    #8a6c1f
-  );
-  background-size: 300% 100%;
-  animation: goldShimmer 4s linear infinite;
+.tag-modern:hover {
+  box-shadow: 0 0 12px rgba(212,175,55,0.35);
+  transform: translateY(-1px);
+  transition: all 0.3s ease;
 }

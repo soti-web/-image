@@ -279,61 +279,13 @@ body {
   transition: 0.6s ease;
 }
 
-/*menuai*/
-/* menu button */
-.menu-btn {
-  font-size: 26px;
-  color: gold;
-  cursor: pointer;
-}
 
-/* side menu */
-.side-menu {
-  position: fixed;
-  top: 0;
-  right: -100%;
-  width: 80%;
-  max-width: 320px;
-  height: 100vh;
-  background: linear-gradient(180deg, #1f8f6a, #0f5f46);
-  transition: 0.4s ease;
-  z-index: 9999;
-  padding: 30px 20px;
-  border-radius: 0 0 0 20px;
-}
-
-/* active */
-.side-menu.active {
-  right: 0;
-}
-
-/* close button */
-.close-btn {
-  font-size: 22px;
-  color: #fff;
-  float: left;
-  cursor: pointer;
-}
-
-/* menu list */
-.side-menu ul {
-  margin-top: 60px;
-  list-style: none;
-  padding: 0;
-}
-
-.side-menu ul li {
-  color: #fff;
-  font-size: 18px;
-  padding: 14px 0;
-  border-bottom: 1px solid rgba(255,255,255,0.2);
-}
 
   /*---------------------------------------
       MENU              
   -----------------------------------------*/
 
-  /*header {
+  header {
     background: #ffffff;
     border-bottom: 1px solid #f2f2f2;
     display: flex;
@@ -372,7 +324,7 @@ body {
   header span i {
     color: #a5c422;
     margin-right: 5px;
-  }*/
+  }
 
 
 
@@ -380,7 +332,7 @@ body {
       MENU              
   -----------------------------------------*/
 
-  /*.navbar-default {
+  .navbar-default {
     background: #ffffff;
     box-shadow: 0 2px 8px rgba(0,0,0,.075);
     border: none;
@@ -455,7 +407,7 @@ body {
   .navbar-default .navbar-toggle:hover,
   .navbar-default .navbar-toggle:focus { 
     background-color: transparent;
-  }*/8
+  }
 
 
 

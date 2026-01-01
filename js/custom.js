@@ -39,6 +39,17 @@
     });  
 
 
+window.addEventListener("load", function () {
+  const preloader = document.querySelector(".preloader");
+  preloader.style.opacity = "0";
+  preloader.style.pointerEvents = "none";
+
+  setTimeout(() => {
+    preloader.style.display = "none";
+  }, 600);
+});
+
+
     // WOW ANIMATION
     new WOW({ mobile: false }).init();
 

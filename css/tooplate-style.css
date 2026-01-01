@@ -226,7 +226,7 @@ body {
     padding: 0;
   }
 
-/* ==== GOLD PRELOADER ==== */
+/* ==== GOLD PRELOADER loading web==== */
 .gold-preloader {
   position: fixed;
   inset: 0;
@@ -294,6 +294,13 @@ body {
 .preloader.hide {
   opacity: 0;
   visibility: hidden;
+}
+
+.logo-img {
+  width: 90px;
+  filter:
+    drop-shadow(0 0 10px #FFD700)
+    drop-shadow(0 0 25px #FFB700);
 }
 
 

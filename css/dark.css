@@ -375,13 +375,7 @@ footer h4,
   overflow: hidden; /* ئەمە گرنگترین شتە */
 }
 
-.news-thumb img {
-  display: block;
-  width: 100%;
-  height: auto;
 
-  border-radius: 0; /* چونکە کارت خۆی قەوسە */
-}
 
 @media (max-width: 768px) {
   .news-thumb {

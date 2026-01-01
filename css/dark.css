@@ -419,6 +419,20 @@ footer h4,
   overflow: hidden; /* ئەمە گرنگترینە */
 }
 
+/* ===== FIX TEAM CARD ROUND CORNERS ===== */
+
+.team-thumb.luxury-card {
+  border-radius: 22px !important;
+  overflow: hidden !important; /* ئەمە گرنگترینە */
+}
+
+/* وێنە لەناو team card */
+.team-thumb.luxury-card img {
+  border-radius: 0 !important; /* با لە دایکە قەوس بێت */
+  display: block;
+}
+
+
 @media (max-width: 768px) {
   .news-thumb {
     min-height: 480px;

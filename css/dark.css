@@ -338,3 +338,14 @@ footer h4,
   transform: translateY(-1px);
   transition: all 0.3s ease;
 }
+
+/* ===== CARD SIZE (LUXURY PROPORTION) ===== */
+.news-thumb {
+  min-height: 520px;      /* قەبارەی گشتی کارت */
+  padding: 28px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+
+  border-radius: 22px;   /* نەرم */
+}

@@ -413,6 +413,12 @@ footer h4,
   border-bottom-right-radius: 0;
 }
 
+/* ===== FIX TEAM CARD RADIUS ===== */
+.team-thumb.luxury-card {
+  border-radius: 22px;
+  overflow: hidden; /* ئەمە گرنگترینە */
+}
+
 @media (max-width: 768px) {
   .news-thumb {
     min-height: 480px;

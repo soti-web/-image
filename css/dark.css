@@ -395,6 +395,23 @@ footer h4,
   border-radius: 0;        /* چونکە overflow hidden کارەکە دەکات */
 }
 
+.team-thumb,
+.news-thumb {
+  border-radius: 22px;
+  overflow: hidden;   /* 👈 ئەمە زۆر گرنگە */
+}
+
+.team-thumb img,
+.news-thumb img {
+  width: 100%;
+  display: block;
+
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
 
 @media (max-width: 768px) {
   .news-thumb {

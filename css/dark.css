@@ -432,6 +432,25 @@ footer h4,
   display: block;
 }
 
+/* ===== TEAM CARD ROUND FIX (FINAL) ===== */
+
+.team-thumb.luxury-card {
+  border-radius: 22px !important;
+  overflow: hidden !important;
+}
+
+/* وێنەکە قەوسی سەرەوەی راست و چەپ */
+.team-thumb.luxury-card > img {
+  width: 100%;
+  display: block;
+
+  border-top-left-radius: 22px;
+  border-top-right-radius: 22px;
+
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+}
+
 
 @media (max-width: 768px) {
   .news-thumb {

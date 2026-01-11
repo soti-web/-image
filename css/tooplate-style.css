@@ -15,17 +15,8 @@ body {
 }
 
 
-.cards-wrapper {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 20px;
-    justify-content: center;
-}
-
-/* ستاندارد قەبارە */
 .card-item {
-    flex: 1 1 calc(33.333% - 20px);
-    display: flex;
+  margin-bottom: 30px;
 }
 
 /* کارت بێ gap وەستاو */

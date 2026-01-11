@@ -15,6 +15,11 @@ body {
 }
 
 
+.owl-item.cloned .social-icon {
+  display: none !important;
+}
+
+
 .card-item {
   margin-bottom: 30px;
 }

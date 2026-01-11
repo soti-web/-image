@@ -14,8 +14,13 @@ body {
   text-align: right;
 }
 
-
+/* نزم کردنەوەئ ئایکۆنی بەتنی کارت */
 .owl-item.cloned .social-icon {
+  display: none !important;
+}
+
+.social-icon li a::after,
+.social-icon li a::before {
   display: none !important;
 }
 

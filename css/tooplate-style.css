@@ -19,10 +19,7 @@ body {
   display: none !important;
 }
 
-.social-icon li a::after,
-.social-icon li a::before {
-  display: none !important;
-}
+
 
 
 .card-item {

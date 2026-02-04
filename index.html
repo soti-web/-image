@@ -486,21 +486,22 @@ http://www.tooplate.com/view/2098-health
 })();
 
 function sendEmail(e) {
-  e.preventDefault(); // 👈 ئەمە زۆر گرنگە
+  e.preventDefault(); // 👈 ئەمە 405 چارەسەر دەکات
 
   emailjs.send("service_t4gdsus", "template_exxlvkf", {
     name: document.getElementById("name").value,
     email: document.getElementById("email").value,
     department: document.getElementById("department").value,
-    message: document.getElementById("message").value
+    message: document.getElementById("message").value,
+    time: new Date().toLocaleString()
   })
-  .then(function(response) {
-      alert("گەیشت ✔️");
-      document.getElementById("appointment-form").reset();
+  .then(() => {
+    alert("نامەکە نێردرا ✔️");
+    document.getElementById("appointment-form").reset();
   })
-  .catch(function(error) {
-      console.log(error);
-      alert("هەڵەیەک ڕوویدا ❌");
+  .catch((error) => {
+    console.log(error);
+    alert("هەڵەیەک ڕوویدا ❌");
   });
 }
 </script>

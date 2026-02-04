@@ -505,5 +505,32 @@ function sendEmail(e) {
 </script>
 
 
+<script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+<script>
+(function(){
+  emailjs.init({
+    publicKey: "pk_XMPo5ZI9WwKZIUcNo"
+  });
+})();
+
+function sendEmail(){
+  emailjs.send("service_t4gdsus", "template_exxlvkf",{
+    name: document.getElementById("name").value,
+    email: document.getElementById("email").value,
+    department: document.getElementById("department").value,
+    message: document.getElementById("message").value
+  }).then(
+    function(){
+      alert("ئیمێل نێردرا بە سەركەوتوویی ✅");
+    },
+    function(error){
+      alert("هەڵە: " + error.text);
+    }
+  );
+}
+</script>
+
+
 </body>
 </html>

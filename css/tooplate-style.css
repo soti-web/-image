@@ -91,6 +91,28 @@ body {
 }
 
 
+
+.submit-btn {
+  background: linear-gradient(45deg, #0d6efd, #00c6ff);
+  color: #fff;
+  border: none;
+  border-radius: 30px;
+  padding: 12px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.submit-btn:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 10px 25px rgba(0, 198, 255, 0.6);
+}
+
+.submit-btn:active {
+  transform: scale(0.92);
+}
+
+
   /*---------------------------------------
      TYPOGRAPHY              
   -----------------------------------------*/

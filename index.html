@@ -360,10 +360,10 @@ http://www.tooplate.com/view/2098-health
 
                                    <div class="col-md-12 col-sm-12">
                                         <label for="password">پاسوۆرد</label>
-                                        <input type="tel" class="form-control" id="phone" name="phone" placeholder="Password">
+                                        <input type="password" class="form-control" id="password" name="password" placeholder="Password">
                                         <label for="Message">وەسفی خۆت بکە</label>
                                         <textarea class="form-control" rows="5" id="message" name="message" placeholder="Message"></textarea>
-                    <button type="button" class="form-control" submit-btn id="cf-submit" onclick="sendEmail()">با بڕوا</button>
+                    <button type="sumbit" class="form-control" submit-btn id="cf-submit" onclick="sendEmail()">با بڕوا</button>
                                    </div>
                               </div>
                         </form>
@@ -480,27 +480,28 @@ http://www.tooplate.com/view/2098-health
 </script>
 
 
-<script src="https://cdn.jsdelivr.net/npm/emailjs-com@3/dist/email.min.js"></script>
-
 <script>
 (function(){
   emailjs.init("XMPo5ZI9WwKZIUcNo");
 })();
 
-function sendEmail() {
+function sendEmail(e) {
+  e.preventDefault(); // 👈 ئەمە زۆر گرنگە
+
   emailjs.send("service_t4gdsus", "template_exxlvkf", {
     name: document.getElementById("name").value,
     email: document.getElementById("email").value,
     department: document.getElementById("department").value,
     message: document.getElementById("message").value
-  }).then(
-    function(){
-      alert("گەیشت");
-    },
-    function(error){
-      alert("هەڵە هەیە لە فۆرمەکەت دووبارە هەوڵدەوە");
-    }
-  );
+  })
+  .then(function(response) {
+      alert("گەیشت ✔️");
+      document.getElementById("appointment-form").reset();
+  })
+  .catch(function(error) {
+      console.log(error);
+      alert("هەڵەیەک ڕوویدا ❌");
+  });
 }
 </script>
 

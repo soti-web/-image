@@ -238,8 +238,8 @@ text-align: right;
     background: #393939;
   }
 
-  .btn-blue {
-    background: #4267b2;
+  .btn-gold {
+    background: #b8860b;
   }
 
   .news-thumb {
@@ -438,7 +438,7 @@ text-align: right;
   }
 
   .navbar-default .navbar-nav li.appointment-btn a:hover {
-    background: #4267b2;
+    background: #b8860b;
     color: #ffffff !important;
   }
 
@@ -843,7 +843,7 @@ text-align: right;
   }
 
   .news-tags li a:hover {
-    background: #4267b2;
+    background: #b8860b;
   }
 
 
@@ -908,7 +908,7 @@ text-align: right;
   }
 
   footer a:hover {
-    color: #4267b2;
+    color: #b8860b;
   }
 
   .contact-info {
@@ -1003,7 +1003,7 @@ text-align: right;
   }
 
   .angle-up-btn a:hover {
-    background: #4267b2;
+    background: #b8860b;
     color: #ffffff;
     transform: translateY(-5px);
   }
@@ -1038,7 +1038,7 @@ text-align: right;
   }
 
   .social-icon li a:hover {
-    background: #4267b2;
+    background: #b8860b;
     color: #ffffff;
   }
 

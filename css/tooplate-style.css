@@ -78,12 +78,12 @@ body {
 
 body {
   font-family: 'Rudaw', sans-serif;
-  text-align: right;
+  /*text-align: right;*/
 }
 
 .kurdi-font {
   direction: rtl;
-  text-align: right;
+
 }
 
 .owl-carousel {

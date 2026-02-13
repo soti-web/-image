@@ -318,6 +318,8 @@ footer h4,
   font-size: 13px;
   font-weight: 600;
   letter-spacing: 0.5px;
+  text-align: center;
+  button-align: center;
 
   color: #f5e6b8; /* گۆڵدی مات */
   background: linear-gradient(

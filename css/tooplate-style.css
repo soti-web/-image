@@ -622,16 +622,19 @@ text-align: right;
     position: relative;
     overflow: hidden;
     cursor: pointer;
+    text-align: center;
   }
 
   .team-info {
     padding: 20px 30px 0 30px;
+    text-align: center;
   }
 
   .team-contact-info {
     border-top: 1px solid #e9e9e9;
     padding-top: 1.2em;
     margin-top: 1.5em;
+    text-align: center;
   }
 
   .team-contact-info .fa {
@@ -668,6 +671,7 @@ text-align: right;
     text-align: center;
     position: relative;
     top: 0;
+    
   }
 
   .team-thumb:hover .social-icon {

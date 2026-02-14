@@ -419,6 +419,10 @@ text-align: right;
     color: #393939;
     font-weight: 500;
   }
+  
+  .navbar-default {
+  direction: rtl;
+}
 
   .navbar-default .navbar-brand .fa {
     color: #393939;

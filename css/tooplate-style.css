@@ -582,7 +582,7 @@ text-align: right;
   }
   
 #about {
-  text-align: center;
+  text-align: center !important;
   display: flex;
   flex-direction: column;
   justify-content: center;
